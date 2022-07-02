@@ -1,0 +1,89 @@
+@import "./fonts.css";
+/*BASIC CONF*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+}
+/*BASIC CONF*/
+
+/*UNIQUE CONF*/
+.grid {
+  display: grid;
+  &_col {
+    &-6 {
+      grid-template-columns: 1fr 1fr;
+    }
+    &-4 {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    &-3 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+.container {
+  max-width: 1380px;
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.h-100 {
+  height: 100%;
+}
+.justify {
+  &-between {
+    justify-content: space-between;
+  }
+  &-center {
+    justify-content: center;
+  }
+}
+.align {
+  &-center {
+    align-items: center;
+  }
+  &-left {
+    align-items: flex-start;
+  }
+}
+.btn {
+  &_price {
+
+  }
+  &_orange {
+
+  }
+  &_hollow {
+
+  }
+  &_footer {
+
+  }
+}
+.section {
+  &_title {
+
+  }
+  &_desc {
+
+  }
+}
+/*UNIQUE CONF*/
