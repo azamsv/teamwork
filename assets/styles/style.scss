@@ -65,8 +65,17 @@ button {
   }
 }
 .btn {
-  &_price {
-
+  &_hero {
+    width: 230px;
+    height: 73px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #E1B168;
+    border: 2px solid #E1B168;
+    border-radius: 0;
   }
   &_orange {
 
@@ -79,11 +88,81 @@ button {
   }
 }
 .section {
+  &_suptitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
   &_title {
-
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
   }
   &_desc {
-
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
   }
 }
 /*UNIQUE CONF*/
+
+/*HERO SECTION*/
+.hero {
+  background-color: #292E36;
+  padding: 40px 40px 0 40px;
+  &_title {
+    max-width: 470px;
+    font-size: 100px;
+    line-height: 110px;
+    color: #FFFFFF;
+    text-transform: none;
+  }
+  &_desc{
+    max-width: 616px;
+    color: #FFFFFF;
+    margin: 26px 0 35px;
+  }
+  &_img-border {
+    padding: 30px 30px 0 30px;
+    position: relative;
+    & .hero_img {
+      max-width: 595px;
+      max-height: 740px;
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    & svg {
+      position: absolute;
+      top: -20px;
+      right: -33px;
+    }
+    & .left-rack {
+      position: absolute;
+      top: 0;
+      left: -30px;
+    }
+    & .top-rack{
+      position: absolute;
+      top: -30px;
+      left: 0;
+    }
+    & .right-rack{
+      position: absolute;
+      top: 0;
+      right: -30px;
+    }
+  }
+
+}
+/*HERO SECTION*/
