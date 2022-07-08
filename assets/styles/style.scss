@@ -166,3 +166,82 @@ button {
 
 }
 /*HERO SECTION*/
+
+/*DATA SECTION*/
+.data {
+  background: #FFF8F5;
+  & .inform {
+    padding: 100px 0 60px;
+    & .container {
+      height: 84px;
+    }
+    & .grid {
+      grid-column-gap: 15px;
+    }
+    &_text {
+      margin: 4px 0 5px 20px;
+    }
+    &_title {
+      font-family: 'Cormorant Infant', sans-serif;
+      font-weight: 400;
+      margin-bottom: 5px;
+      font-size: 30px;
+      line-height: 39px;
+      letter-spacing: 0.2px;
+      color: #292E36;
+    }
+    &_desc {
+      color: #555555;
+    }
+  }
+  & .story {
+    padding: 60px 0 100px;
+    &_img {
+      max-width: 743px;
+      max-height: 519px;
+      margin: 25px 45px 25px 0;
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &_content {
+      padding: 20px 0 53px;
+    }
+    &_delicious {
+      max-width: 559px;
+    }
+    &_data {
+      margin: 5px 0 15px;
+      gap: 24px;
+    }
+    &_title {
+      margin-bottom: 15px;
+      color: #292E36;
+    }
+    &_desc {
+      color: #555555;
+    }
+    &_2018 {
+      width: 274px;
+      height: 156px;
+    }
+    &_signature {
+      max-width: 571px;
+      max-height: 161px;
+      & .signature_title {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+        margin-bottom: 21px;
+      }
+      & svg {
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
+/*DATA SECTION*/
