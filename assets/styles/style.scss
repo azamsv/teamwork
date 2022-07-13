@@ -65,6 +65,17 @@ button {
   }
 }
 .btn {
+  &_header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    border: 2px solid #E1B168;
+    width: 295px;
+    height: 73px;
+
+  }
   &_hero {
     width: 230px;
     height: 73px;
@@ -76,9 +87,6 @@ button {
     color: #E1B168;
     border: 2px solid #E1B168;
     border-radius: 0;
-  }
-  &_orange {
-
   }
   &_hollow {
 
@@ -113,6 +121,61 @@ button {
   }
 }
 /*UNIQUE CONF*/
+
+/*HEADER SECTION*/
+.header {
+  background: #292E36;
+  &_top {
+    border-bottom: 2px solid #5C6168;
+    & .container {
+      padding: 50px 0 50px;
+    }
+    & .btn_reserv {
+      background: #E1B168;
+      &:hover {
+        transition: 0.6s;
+        font-size: 26px;
+        background: inherit;
+        border: inherit;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+    }
+  }
+  &_bottom {
+    height: 80px;
+
+  }
+  &_link {
+    text-decoration: none;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 60px;
+  }
+  &_link:hover {
+    transition: 0.15s;
+    font-size: 22px;
+    color: #E1B168;
+  }
+  & .header_icon {
+    display: inline-block;
+    margin-left: 21px;
+  }
+  & .fa-brands {
+    color: #FFFFFF;
+    font-size: 25px;
+    &:hover {
+      transition: 0.15s;
+      font-size: 30px;
+      color: #E1B168;
+      cursor: pointer;
+    }
+  }
+}
+/*HEADER SECTION*/
 
 /*HERO SECTION*/
 .hero {
