@@ -78,8 +78,7 @@ button {
   width: 295px;
   height: 73px;
 }
-.btn_hero {
-  width: 230px;
+.btn_section {
   height: 73px;
   font-weight: 400;
   font-size: 22px;
@@ -90,6 +89,13 @@ button {
   border: 2px solid #E1B168;
   border-radius: 0;
 }
+.btn_hero {
+  width: 230px;
+}
+.btn_menu {
+  width: 255px;
+}
+
 .section_suptitle {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -300,5 +306,110 @@ button {
 }
 
 /*DATA SECTION*/
+/*MENU SECTION*/
+.menu {
+  padding: 120px 0 140px;
+}
+.menu .container {
+  padding: 20px 10px 0;
+}
+.menu .grid {
+  grid-template-columns: 491px 2fr;
+  grid-column-gap: 60px;
+}
+.menu .dishes {
+  margin-top: 20px;
+  max-width: 491px;
+}
+.menu .dishes_content {
+  margin-bottom: 30px;
+  padding: 0 5px 15px 0;
+}
+.menu .dishes_content_suptitle {
+  position: relative;
+  color: #292E36;
+}
+.menu .dishes_content_suptitle:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background: #E1B168;
+  top: -5px;
+  left: 0;
+}
+.menu .dishes_content_suptitle:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  background: #E1B168;
+  bottom: -1px;
+  left: 0;
+}
+.menu .dishes_content_title {
+  color: #292E36;
+  margin: 12px 0 13px;
+}
+.menu .dishes_content_desc {
+  color: #555555;
+}
+.menu .dishes_img {
+  width: 398px;
+  height: 548px;
+  margin-bottom: 60px;
+}
+.menu .dishes_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu_list {
+  margin-top: 40px;
+}
+.menu_list .starters {
+  display: grid;
+  grid-row-gap: 50px;
+}
+.menu_list .starters .startes_title {
+  margin: 14px 0 40px;
+}
+.menu_list .starters .menu_card.grid {
+  grid-template-columns: max-content auto max-content;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+.menu_list .starters .menu_card_img {
+  width: 84px;
+  height: 84px;
+}
+.menu_list .starters .menu_card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu_list .starters .menu_card_content {
+  margin: 0 10px 0 20px;
+}
+.menu_list .starters .menu_card_content_title {
+  margin-bottom: 1px;
+  font-size: 30px;
+  line-height: 42px;
+  color: #292E36;
+}
+.menu_list .starters .menu_card_price {
+  align-self: center;
+}
+.menu_list .starters .menu_card-line {
+  width: inherit;
+  height: 50px;
+  border-bottom: 2px solid rgba(170, 170, 170, 0.6666666667);
+}
+.menu .menu_list {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+/*MENU SECTION*/
 
 /*# sourceMappingURL=style.css.map */
